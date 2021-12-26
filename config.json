@@ -1,0 +1,4 @@
+﻿{
+    "connectionString": "mongodb://0a6df0024f0841fe2aa0f635c6761adf:apiBack@11a.mongo.evennode.com:27018,11b.mongo.evennode.com:27018/0a6df0024f0841fe2aa0f635c6761adf",
+    "secret": "1965928f2f6c31b5c704d7eb5291cb6d"
+}
