@@ -50,7 +50,7 @@ const userSchema = new Schema({
     },
     subscription: {
         type: String,
-        required: true,
+        required: false,
         maxLength: 10
     },
 });
