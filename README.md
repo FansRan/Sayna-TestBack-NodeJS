@@ -163,32 +163,16 @@ $ npm start
         ```json
             {
                 "error": false,
-                "users": [
+                "songs": [
                     {
-                        "firstname": "Jane",
-                        "lastname": "Doe",
-                        "birthday": "1998-12-15T00:00:00.000Z",
-                        "gender": "F",
-                        "email": "jane@doe.com",
-                        "tokens": {
-                            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-                            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQ...",
-                            "createdAt": "2021-11-28T13:15:20.806Z",
-                            "_id": "61a380e8fb6d2fba278e6a9b"
-                        }
-                    },
-                    {
-                        "firstname": "Johnny",
-                        "lastname": "Doe",
-                        "birthday": "1998-12-15T00:00:00.000Z",
-                        "gender": "M",
-                        "email": "john@doe.com",
-                        "tokens": {
-                            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpX...",
-                            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...",
-                            "createdAt": "2021-11-28T14:26:05.140Z",
-                            "_id": "61a3917c8541919cda88ae64"
-                        }
+                        "id": "",
+                        "name": "",
+                        "url": "",
+                        "cover": "",
+                        "time": "",
+                        "type": "",
+                        "createdAt": "2021-12-26T12:27:28.429Z",
+                        "updatedAt": "2021-12-26T12:27:28.429Z"
                     }
                 ]
             }
@@ -207,6 +191,15 @@ $ npm start
         ```json
             {
                 "error": false,
-                "message": "L'utilisateur a été déconnecté avec succès"
+                "songs": {
+                    "id": "",
+                    "name": "",
+                    "url": "",
+                    "cover": "",
+                    "time": "",
+                    "type": "",
+                    "createdAt": "2021-12-26T12:27:28.429Z",
+                    "updatedAt": "2021-12-26T12:27:28.429Z"
+                }
             }
         ``` 
