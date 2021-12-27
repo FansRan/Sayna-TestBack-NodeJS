@@ -18,7 +18,7 @@ async function getAll() {
     const songs = await Song.find();
     return {
         error: false,
-        ...songs.toJSON()
+        songs : songs
     }
 }
 
@@ -26,6 +26,6 @@ async function getById(id) {
     const song = await Song.findById(id);
     return {
         error: false,
-        ...song.toJSON()
+        songs: song
     }
 }

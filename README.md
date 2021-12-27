@@ -165,14 +165,54 @@ $ npm start
                 "error": false,
                 "songs": [
                     {
-                        "id": "",
-                        "name": "",
-                        "url": "",
-                        "cover": "",
-                        "time": "",
-                        "type": "",
-                        "createdAt": "2021-12-26T12:27:28.429Z",
-                        "updatedAt": "2021-12-26T12:27:28.429Z"
+                        "name": "Ed Sheeran & Elton John - Merry Christmas [Official Video]",
+                        "url": "https://www.youtube.com/watch?v=Q_yuO8UNGmY&list=RDCLAK5uy_ns8ghALwo2t9QqB7VBq_8FT6ktbL1XGIk&start_radio=1",
+                        "cover": "Non",
+                        "time": 3.29,
+                        "type": "Noël",
+                        "createdAt": "2021-12-27T05:17:41.123Z",
+                        "updatedAt": "2021-12-27T05:17:41.123Z",
+                        "id": "61c94c757562e43596004e78"
+                    },
+                    {
+                        "name": "Meghan Trainor - Rockin' Around The Christmas Tree (Official Christmas Stroll Video)",
+                        "url": "https://www.youtube.com/watch?v=a7nYyTNX6Ys&list=RDCLAK5uy_ns8ghALwo2t9QqB7VBq_8FT6ktbL1XGIk&index=4",
+                        "cover": "Non",
+                        "time": 2.28,
+                        "type": "Noël",
+                        "createdAt": "2021-12-27T05:21:35.248Z",
+                        "updatedAt": "2021-12-27T05:21:35.248Z",
+                        "id": "61c94d5fbfe47464c182a2c9"
+                    },
+                    {
+                        "name": "Mariah Carey - All I Want for Christmas Is You (Make My Wish Come True Edition)",
+                        "url": "https://www.youtube.com/watch?v=aAkMkVFwAoo&list=RDCLAK5uy_kOeihDkxwRjMxrIyvzrY3K-iUiWeaxZhY&start_radio=1",
+                        "cover": "Non",
+                        "time": 4.02,
+                        "type": "Noël",
+                        "createdAt": "2021-12-27T05:24:26.474Z",
+                        "updatedAt": "2021-12-27T05:24:26.474Z",
+                        "id": "61c94e0abfe47464c182a2ce"
+                    },
+                    {
+                        "name": "Wham! - Last Christmas (Official Video)",
+                        "url": "https://www.youtube.com/watch?v=E8gmARGvPlI&list=RDCLAK5uy_kOeihDkxwRjMxrIyvzrY3K-iUiWeaxZhY&index=4",
+                        "cover": "Non",
+                        "time": 4.38,
+                        "type": "Noël",
+                        "createdAt": "2021-12-27T05:32:57.704Z",
+                        "updatedAt": "2021-12-27T05:32:57.704Z",
+                        "id": "61c9500974bfad83ffee2198"
+                    },
+                    {
+                        "name": "Andy Williams - The Most Wonderful Time Of The Year (From The Andy Williams Show)",
+                        "url": "https://www.youtube.com/watch?v=73UqDX_quk0&list=RDCLAK5uy_kOeihDkxwRjMxrIyvzrY3K-iUiWeaxZhY&index=5",
+                        "cover": "Non",
+                        "time": 2.52,
+                        "type": "Noël",
+                        "createdAt": "2021-12-27T05:33:48.943Z",
+                        "updatedAt": "2021-12-27T05:33:48.943Z",
+                        "id": "61c9503c74bfad83ffee219b"
                     }
                 ]
             }
@@ -182,24 +222,24 @@ $ npm start
 
     + Request (application/json)
 
-        Don't forget to add Authorization in your header.
+        Don't forget to add Authorization in your header and the id in query parameter.
 
     + Response 200 (application/json)
 
         + Body
 
         ```json
-            {
+           {
                 "error": false,
                 "songs": {
-                    "id": "",
-                    "name": "",
-                    "url": "",
-                    "cover": "",
-                    "time": "",
-                    "type": "",
-                    "createdAt": "2021-12-26T12:27:28.429Z",
-                    "updatedAt": "2021-12-26T12:27:28.429Z"
+                    "name": "Ed Sheeran & Elton John - Merry Christmas [Official Video]",
+                    "url": "https://www.youtube.com/watch?v=Q_yuO8UNGmY&list=RDCLAK5uy_ns8ghALwo2t9QqB7VBq_8FT6ktbL1XGIk&start_radio=1",
+                    "cover": "Non",
+                    "time": 3.29,
+                    "type": "Noël",
+                    "createdAt": "2021-12-27T05:17:41.123Z",
+                    "updatedAt": "2021-12-27T05:17:41.123Z",
+                    "id": "61c94c757562e43596004e78"
                 }
             }
         ``` 

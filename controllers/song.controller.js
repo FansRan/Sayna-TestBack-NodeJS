@@ -1,5 +1,3 @@
-const express = require('express');
-const router = express.Router();
 const songService = require('../services/song.service');
 
 module.exports = {
@@ -21,7 +19,7 @@ function getAll(req, res, next) {
 }
 
 function getById(req, res, next) {
-    userService.getById(req.params.id)
+    songService.getById(req.params.id)
         .then(song => res.status(201).json(song))
         .catch(err => next(err));
 }
