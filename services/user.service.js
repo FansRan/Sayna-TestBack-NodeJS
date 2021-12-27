@@ -17,19 +17,14 @@ async function getById(id) {
 }
 
 async function update(id, userParam) {
-    let user = await User.findById(id);
-
     // hash password if it was entered
     if (userParam.password) {
         userParam.password = bcrypt.hashSync(userParam.password, 10);
     }
 
-    user.updatedAt = Date.now;
+    userParam.updatedAt = new Date();
 
-    // copy userParam properties to user
-    Object.assign(user, userParam);
-
-    await user.save();
+    await User.findByIdAndUpdate(id, userParam);
 
     return {
         error: false,

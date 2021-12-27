@@ -3,9 +3,16 @@ const router = express.Router();
 const songService = require('../services/song.service');
 
 module.exports = {
+    add,
     getAll,
     getById
 };
+
+function add(req, res, next) {
+    songService.create(req.body)
+        .then(() => res.status(200).json({}))
+        .catch(err => next(err));
+}
 
 function getAll(req, res, next) {
     songService.getAll()

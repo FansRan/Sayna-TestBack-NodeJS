@@ -5,7 +5,7 @@
 A NodeJS API that manages a user Authentication. 
 
 ## HOST
-http://api-user-subscription.eu-4.evennode.com/
+https://polar-meadow-89641.herokuapp.com
 
 ## Installation
 
