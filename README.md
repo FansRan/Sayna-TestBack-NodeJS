@@ -83,7 +83,7 @@ $ npm start
             "error": false,
             "message": "L'utilisateur a été authentifié avec succès",
             "user": {
-                "firstname": "Te",
+                "firstname": "Test",
                 "lastname": "test",
                 "email": "mytest@mail.com",
                 "sexe": "F",
@@ -123,6 +123,23 @@ $ npm start
         }
     ```
 
+### Delete user [DELETE] [/user] [Need Authorization in header]
+
++ Request
+    
+    Don't forget to add Authorization in your header.
+
++ Response 200 (application/json)
+
+    + Body
+
+    ```json
+        {
+            "error": false,
+            "message": "Votre compte et le compte de vos enfants ont été suprrimés avec succès"
+        }
+    ```
+
 ### Add bank card [PUT] [/user/cart] [Need Authorization in header]
 
 
@@ -152,7 +169,7 @@ $ npm start
 
 ### Get songs listing [GET] [/songs] [Need Authorization in header]
 
-    + Request (application/json)
+    + Request
     
         Don't forget to Authorization in your header.
 
@@ -220,7 +237,7 @@ $ npm start
 
 ### Get song by id [GET] [/song/{id}] [Need Authorization in header]
 
-    + Request (application/json)
+    + Request
 
         Don't forget to add Authorization in your header and the id in query parameter.
 
